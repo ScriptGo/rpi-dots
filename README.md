@@ -10,7 +10,7 @@ Raspberry Pi OS 相关配置
 
 ### 源
 
-**更换源之前，请先确认系统的架构和版本**
+更换源之前，请先确认系统的架构和版本
 
 ```bash
 uname -m         # 查看系统的架构
@@ -85,7 +85,7 @@ deb https://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ bookworm main
 
 2.配置
 
-参考这个 [repo]()
+参考这个 [repo](https://github.com/ScriptGo/rime)
 
 ### zsh
 
@@ -100,6 +100,14 @@ sudo apt install zsh zsh-doc
 ```bash
 sudo apt install zsh-syntax-highlighting zsh-autosuggestions
 ```
+
+快速跳转
+
+```bash
+git clone https://github.com/skywind3000/z.lua.git
+```
+
+将其 clone 到 `.local/bin/` 目录下
 
 3.切换shell
 

@@ -152,16 +152,16 @@ export PATH=$HOME/.local/bin:$PATH
 # 扩展
 # ##############################################################################
 
-source /usr/share/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey ';' autosuggest-accept
 
-source /usr/share/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # starship
 eval "$(starship init zsh)"
 
 # z.lua
-eval "$(lua /usr/share/z.lua/z.lua --init zsh once enhanced)"
+eval "$(lua $HOME/.local/bin/z.lua/z.lua --init zsh once enhanced)"
 
 # ##############################################################################
 # 其他

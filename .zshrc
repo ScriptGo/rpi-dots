@@ -130,14 +130,18 @@ alias ll='ls -al'
 alias rm="rm -i"
 alias mv="mv -i"
 alias cp="cp -i"
+alias cat="bat"
+alias find="fd"
+alias grep="rg"
 
 alias szr="source $HOME/.zshrc"
 
 # 在命令行直接输入带有以下后缀的文件，会在 nvim 中打开
-alias -s html='nvim'
-alias -s css='nvim'
-alias -s red='nvim'
-alias -s sh='nvim'
+alias -s html='vim'
+alias -s css='vim'
+alias -s py='vim'
+alias -s red='vim'
+alias -s sh='vim'
 
 # 在命令行直接输入带有以下后缀的文件，会自动解压
 alias -s gz='tar -xzvf'

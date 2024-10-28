@@ -92,7 +92,7 @@ deb https://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ bookworm main
 1.安装 zsh
 
 ```bash
-sudo apt install zsh zsh-doc
+sudo apt install zsh
 ```
 
 2.安装 zsh 插件
@@ -121,4 +121,4 @@ git clone https://github.com/skywind3000/z.lua.git
 
 ### 其他
 
-`sudo apt install fzf fd-find bat ripgrep`
+`sudo apt install fzf fd-find bat ripgrep kitty vim-gtk3`

@@ -121,4 +121,4 @@ git clone https://github.com/skywind3000/z.lua.git
 
 ### 其他
 
-`sudo apt install fzf fd-find bat ripgrep kitty vim-gtk3`
+`sudo apt install fzf fd-find bat ripgrep`
